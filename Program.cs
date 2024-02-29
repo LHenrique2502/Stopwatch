@@ -5,6 +5,7 @@ Menu();
 
 static void Menu()
 {
+    Console.Clear();
     Console.WriteLine("Bem vindo ao Stopwatch!");
     Console.WriteLine("");
     Console.WriteLine("M = Minutos");
