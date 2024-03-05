@@ -8,10 +8,13 @@ static void Menu()
     Console.Clear();
     Console.WriteLine("Bem vindo ao Stopwatch!");
     Console.WriteLine("");
-    Console.WriteLine("M = Minutos");
-    Console.WriteLine("S = Segundos");
+    Console.WriteLine("M = Minutos => 1m = 1 minuto");
+    Console.WriteLine("S = Segundos => 10s = 10 segundos");
     Console.WriteLine("0 = Sair");
     Console.WriteLine("Selecione a opção desejada:");
+
+    string data = Console.ReadLine().ToLower();
+    Console.WriteLine(data);
 }
 
 static void Start(int time)
